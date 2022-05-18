@@ -1,11 +1,18 @@
 body{
+    margin: 0%; 
     font-family: 'Shadows Into Light', cursive;
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name-highlight{
     color: coral;
+}
+p{
+    color: dimgray;
 }
 .half-width{
     width: 40%;
@@ -15,4 +22,24 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-repeat: no-repeat;
+    background-image: url(/images/top-banner.png);
+}
+section{
+    height:500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon, tomato);
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.dream-area{
+    background-repeat: no-repeat;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
 }
